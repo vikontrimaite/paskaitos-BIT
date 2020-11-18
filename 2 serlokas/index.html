@@ -6,24 +6,45 @@
     <title>Serlokas</title>
 </head>
 <body style="background-color: rgb(234, 235, 238);">
-    <div style="width: 30%; 
+    <div style="width: 20%; 
                 display: inline-block;
-                margin-left: 10%;">
-        <img style="width: 100%"; 
+                float: left;
+                margin-left: 15%;
+                margin-top: 100px;"
+                <!-- background-color: yellow - taip galima pasitikrinti reikiamą elementą -->
+                <!-- display: inline-block; + width + float:left - trio kuriant stulpelius -->
+                <!-- float: left means priverstinis slinkimas į kairę pusę, nelieka tarpelio + lygiuoja pagal viršų, nes taip reikia, visada lygiuojama pagal viršų -->
+        <img style="width: 100%;" 
              src="serlokas.png" 
              alt="serlokas">
     </div>
     <div style="width: 40%;  
                 display: inline-block;
                 margin-left: 10%;
-                text-align: center;">
-        <h1 style="">404</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, molestias id quae dolor aliquid atque dignissimos neque debitis praesentium dolores minus ipsum. Labore a quae deserunt temporibus quasi quo ex!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <a style=""     
+                text-align: center;
+                float: left;
+                margin-top: 100px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        <h1 style="font-size: 60px;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    font-weight: bold;">404</h1>
+                    <!-- šitie du margin padaro, kad neišlįstu lauk tas 404  -->
+        <p style="font-size: 14px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, molestias dolor sit amet consectetur adipisicing elit. Voluptas, molestias</p>
+        <p style="font-size: 8px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a style="font-size: 8px;
+                    background-color: rgb(105, 111, 137);
+                    color: white;
+                    display: inline-block;
+                    padding: 10px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-weight: bold;"     
             href="#">Back home</a>
     </div>
 </body>
 </html>
 
-<!-- background-color: yellow - taip galima pasitikrinti reikiamą elementą-->
+<!-- margin - atstumus tarpusayvyje atstumia (korona)
+padding - išpūčia elementą ("kiek aš esu storas") -->
+<!-- text-decoration: - pabraukta, nepabrauka ir pan -->
