@@ -1,33 +1,121 @@
-main {
+/* ieško body elemnto ir visų elementų, kurie yra body'je.
+čia yra stiliaus suvienodinimas visiems elementams. */
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* panaiinimas atstūmimas
+pasipūtimas panaikinimas
+lygiujasi tekstas pagal viršų lentelėse
+visiems elementms pasakoma, kad pločio savybė yra interpretuojama ne kaip eemnto turinio plotis, bet kaip elemnto plotis, į kurį įtraukiama ir turinio dalis, ir padding, ir kraštinės storis.
+default teksto stilius. */
+
+/* o šitas body mano norimo psl stilius */
+body {
+    background-color: rgb(248, 248, 248);
+}
+
+body > main {
     display: inline-block;
     width: 800px;
     float: left;
-    background-color: pink;
+    margin-top: 20px;
     margin-left: calc(50% - 400px);
 }
+
+/* čia body > main duoda aiškumo, kad čia būtent tas main iš body tėvo, bet nebūtina jo rašyti, nes main yra unikalus šiame projekte  */
+
     header {
     display: inline-block;
     float: left;
     width: 100%;
+
             }
-        img {
+
+        header > img {
         display: inline-block;
         float: left;
+        height: 50px;
+        /* padding: 10px; */
+        margin-left: 15px;
         }
+        /* headeryje nuotraukos ribojamos tik pagal aukštį */
+
         nav {
         display: inline-block;
         float: right;
-        text-decoration: none;
+        margin-top: 12px;
+        margin-bottom: 12px;
         }
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                padding: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                font-size: 13px;
+                color: 	rgb(159, 159, 159);
+                margin-right: 5px;
+                margin-left: 5px; 
+                float: left;
+                border: 3px solid transparent;
+            }
+
+            /* #signin */
+            /* last of type paima paskutinį elemntą, kuris yra tokio tipo, čia : nuoroda */
+            /* a:nth-child(5) tai pvz 5 vaikas to tipo */
+            a:last-of-type {
+                text-transform: uppercase;
+                /* šituos paveldi iš a, tai nereikia iš naujo nurodyti   */
+                border-style: solid;
+                border-width: 5px;
+                border-color: rgb(189, 189, 189);
+                /* border-color: purple; */
+                border-radius: 22px;
+            
+            
+        }
+
     section {
     display: inline-block;
     width: 100%;
-    float: left;
+    padding: 20px;
+    box-sizing: border-box;
     }
 
-    #signin {
-        border-style: solid;
-        border-width: medium;
-        border-color: rgb(189, 189, 189);
-        border-radius: 5px;
+    div {
+        display: inline-block;
+        float: left;
+        width: 50%;
+        margin-top: 40px;
+        color: rgb(159, 159, 159);
     }
+
+        h1 {
+            display: inline-block;
+            width: 100%;
+            font-size: 80px;
+        }
+        /* čia width - 100 proc tėvinio elemento */
+
+        p {
+            display: inline-block;
+            width: 100%;
+            font-size: 20px;
+            font-family: monospace;
+        }
+
+    section > img {
+        display: inline-block;
+        float: right;
+        width: 50%;
+    }
+
+    /* header > img reiškia header'io img, sako, kad tai tėvas ir vaikas */

@@ -1,0 +1,43 @@
+Paveiksliuko iškirpimas 1) magic wand 2) ctrl + i 3) ctrl + shift +
+
+<!-- display: inline-block; + width + float:left - trio kuriant stulpelius -->
+                <!-- float: left means priverstinis slinkimas į kairę pusę, nelieka tarpelio + lygiuoja pagal viršų, nes taip reikia, visada lygiuojama pagal viršų -->
+
+<!-- margin - atstumus tarpusayvyje atstumia (korona)
+padding - išpūčia elementą ("kiek aš esu storas") -->
+<!-- text-decoration: - pabraukta, nepabrauka ir pan -->
+
+<!-- margin-left: calc(50% - 400px); (nes x = 100 % (ekrano plotis) - 800px (dydis kokio mes norime)) / 2 , taigi taip gali apskaičiuoti lygtis ir kitus veiksmus. būtini tarpeliai calc'e tarp skirtingų ~skaičių~ -->
+
+<!-- main - apgaubia visą turinį
+hedaer - gaubia visą viršutinę dalį (top + logo + nav)
+section - text + img -->
+
+<!-- img {
+    display: inline-block;
+    float: left;
+}
+nav {
+    display: inline-block;
+    float: right;
+} --- taip padaro viską vienoje ilutėje, bet skirtingose pusėse su float left ir float right -->
+
+    /* header > img reiškia header'io img, sako, kad tai tėvas ir vaikas */
+
+     /* headeryje nuotraukos ribojamos tik pagal aukštį */
+
+
+/* čia body > main duoda aiškumo, kad čia būtent tas main iš body tėvo, bet nebūtina jo rašyti, nes main yra unikalus šiame projekte  */
+
+išcentruoti galima taip 
+        margin-top: 12px;
+        margin-bottom: 12px;
+        }
+
+            /* last of type paima paskutinį elemntą, kuris yra tokio tipo, čia : nuoroda */
+            /* a:n-child(5) tai pvz 5 vaikas to tipo */
+
+FAVICON
+    <link rel="shortcut icon" href="buttonpng.png" type="image/png">
+    <!-- faviconas - tai tas mini paveiksliukas, rodomas prie puslapio pavadinimo naršyklės viršuje aka mikro logotpas-->
+    <!-- svarbu picą'ą sumažinti pačiam, kad mažiau vietos užimtų -->
