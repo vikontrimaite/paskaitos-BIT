@@ -1,0 +1,41 @@
+css position - relative and absolute
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
+
+div.absolute {
+  position: absolute;
+	left: 0;
+    right: 0;
+
+  width: 20px;
+  height: 100px;
+  border: 3px solid #73AD21;
+  margin: auto;
+}
+</style>
+</head>
+<body>
+
+<h2>position: absolute;</h2>
+
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+<div class="relative">This div element has position: relative;
+  <div class="absolute">This div element has position: absolute;</div>
+</div>
+
+</body>
+</html>
+
+//div relative būtinas, kad galėtum nustatyti div absoulte. absolute nustaomas tėvinio elemnto atžvilgiu (šiuo atveju - antrasis div'as pirmesnio div'o atžvilgiu; jeigu pirmasis div'as neturi relative, tada antrasis div: absolute būtų nustatomas tėvinio elemento - body - atžvilgiu.
+nustačius 	left: 0; , right: 0; ,   margin: auto; - šį antrąjį elemntą išcentruoja per vidurį.
+
