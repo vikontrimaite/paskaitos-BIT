@@ -43,3 +43,5 @@ FAVICON
     <!-- svarbu picą'ą sumažinti pačiam, kad mažiau vietos užimtų -->
 
 margin: auto duoda efektą tik jeigu yra nustatytas width (100 proc nesiskaito)
+
+***
