@@ -39,3 +39,13 @@ div.absolute {
 //div relative būtinas, kad galėtum nustatyti div absoulte. absolute nustaomas tėvinio elemnto atžvilgiu (šiuo atveju - antrasis div'as pirmesnio div'o atžvilgiu; jeigu pirmasis div'as neturi relative, tada antrasis div: absolute būtų nustatomas tėvinio elemento - body - atžvilgiu.
 nustačius 	left: 0; , right: 0; ,   margin: auto; - šį antrąjį elemntą išcentruoja per vidurį.
 
+---- 
+kitas šaltinis
+
+relative behaves the same as static unless you add some extra properties.
+
+Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+
+absolute is the trickiest position value. absolute behaves like fixed except relative to the nearest positioned ancestor instead of relative to the viewport. If an absolutely-positioned element has no positioned ancestors, it uses the document body, and still moves along with page scrolling. 
+
+ždž - relative, kai tiesiog nuo įprastos savo vietos keiti jo vietą, o abosolute - keičia vietą pagal tėvinį elementą (kurs relative)

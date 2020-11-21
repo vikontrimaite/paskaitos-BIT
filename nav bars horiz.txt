@@ -1,0 +1,45 @@
+nav {
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    border: 2px solid #e7e7e8;
+    background-color: #e7e7e8;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+// šitie 3 gale padaro menu fixed
+}
+
+li {
+	text-align: center;
+	display: inline;
+	float: left;
+}
+//išcentruoja menu, nes by default būna nuo left
+//<li> elements are block elements by default. The inline value displays links a row instead of new lines.
+
+li a {
+    color: white;
+	text-decoration: none;
+	display: block;
+	// ir čia gali būti text-align: center;
+	// 
+}
+
+a {
+	display: block;
+}
+
+li a:hover {
+    background-color:aliceblue;
+}
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIOBTLxi8Erbilf0TVVx3gjSxUmc-Pf8wIEQ&usqp=CAU" alt="ku">
+
+
+
