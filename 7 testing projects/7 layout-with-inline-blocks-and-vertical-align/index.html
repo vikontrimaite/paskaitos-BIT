@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout with inline block (+width in percent) and vertical align</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <nav >
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">kuku</a></li>
+                    <li><a href="#">miau</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+        <div class="column">
+            <section>
+                inline-block elements are affected by the vertical-align property, which you probably want set to top.
+                You need to set the width of each column
+                There will be a gap between the columns if there is any whitespace between them in the HTML
+            </section>
+            <section>
+                <img src="whale.png" alt="whale" id="pic">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est iure, explicabo temporibus consequatur quis quos. Fugit ipsam et similique omnis sed impedit voluptatem quis qui officia! Consequuntur, vel nesciunt?
+            </section>
+            <section>
+                one more!
+            </section>
+        </div>
+
+        <div class="align"> 
+            <p>
+                one more div - p wih img
+                <img src="whale.png" alt="whale" id="align-yes">
+                middle, where <span>vertical-align</span> works!! 
+            </p>
+        </div>
+
+</body>
+</html>

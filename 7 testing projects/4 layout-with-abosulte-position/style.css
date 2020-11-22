@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 120px;
+    background-color: darkkhaki;
+}
+
+.container {
+    /* position: relative; */
+  }
+  nav {
+    position: absolute;
+    left: 0px;
+    width: 200px;
+    background-color: palevioletred;
+  }
+  section {
+    /* position is static by default */
+    margin-left: 200px;
+    background-color: chartreuse;
+    font-size: 40px;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    background-color: darkcyan;
+  }

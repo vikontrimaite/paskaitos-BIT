@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: slateblue;
+    margin: 0;
+    padding: 0;
+}
+
+.simple {
+    display: inline-block;
+    border: red solid 5px;
+    background-color: violet;
+    width: 33%;
+    height: 180px;
+    font-size: 15px;
+    padding: 6px;
+}
+
+.special {
+    background-color: rosybrown;
+    border: rosybrown 2px solid;
+    margin: 5px;
+    padding: 6px;
+    width: 250px;
+}
+
+/* hmm so with float i can make disappear the little space between blocks, but then i don't need to use inline-block! but i need to use clear */

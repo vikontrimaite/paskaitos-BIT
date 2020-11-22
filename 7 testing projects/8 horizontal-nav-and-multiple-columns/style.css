@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 90px;
+    vertical-align: middle;
+    background-color: salmon;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 3px;
+  padding: 3px;
+  background-color: lightblue;
+}
+
+li {
+  display: inline;
+}
+
+a {
+    text-decoration: none;
+    padding: 7px;
+    color: rebeccapurple;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: lightcoral;
+}
+
+p {
+    background-color: red;
+    text-align: center;
+}
+
+.three-column {
+    padding: 1em;
+    -moz-column-count: 4;
+    -moz-column-gap: 1em;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 1em;
+    column-count: 4;
+    column-gap: 1em;
+    background-color: lime;
+    border: magenta 3px dashed;
+  }
+
+  .twodivs {
+      display: inline-block;
+      background-color: mediumvioletred;
+      /* margin: 10px; */
+      padding: 30px;
+      /* margin: auto; */
+  }
+
+  .one {
+      background-color: mediumaquamarine;
+      float: left;
+      width: 50%;
+      overflow: auto;
+      text-align: center;
+  }
+
+  .flowerpic {
+    background-color: mediumaquamarine;
+    float: right;
+    width: 147px;
+}
+
+  .two {
+      background-color: mediumseagreen;
+      float: right;
+      width: 50%;
+      text-align: center;
+  }

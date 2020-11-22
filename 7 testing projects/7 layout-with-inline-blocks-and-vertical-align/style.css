@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+/* here putting clearfix will help!! */
+
+body {
+    background-color: rosybrown;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    background-color: royalblue;
+    vertical-align: bottom;
+  }
+/* here vertical align works only with bottom. it works here, because this is the big block (one of two)(?) */
+
+
+.column {
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+  }
+
+section {
+    background-color: salmon;
+    border: slateblue solid 4px;
+  }
+
+  #pic {
+      float: right;
+      width: 20%;
+      vertical-align: top;
+  }
+
+  .align {
+      display: inline-block;
+      vertical-align: top;
+      background-color: yellow;
+      margin: 40px;
+  }
+
+  #align-yes {
+    width: 10px;
+    vertical-align: middle;
+    border: tan 1px solid;
+    background-color: wheat;
+    border-radius: 50px;
+  }
+
+  span {
+      background-color: turquoise;
+  }

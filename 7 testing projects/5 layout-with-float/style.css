@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: seagreen;
+}
+
+div {
+    overflow: auto;
+    background-color: sienna;
+    border: skyblue solid 5px;
+}
+/* so making div for whole layout will let to add clearfix attribute */
+
+nav {
+    float: left;
+    width: 20%;
+    background-color: palegreen;
+  }
+
+  section:nth-of-type(1) {
+    margin-left: 20%;
+    background-color: orchid;
+  }
+
+  section:nth-of-type(2) {
+    margin-left: 20%;
+    background-color: orange;
+  }
+
+  section:nth-of-type(3) {
+    margin-left: 20%;
+    background-color: royalblue;
+  }
+
+  img {
+    float: right;
+    width: 30%;
+}
