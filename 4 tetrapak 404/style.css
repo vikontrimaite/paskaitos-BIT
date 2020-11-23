@@ -5,7 +5,7 @@ body {
 }
 
     img {
-        width: 180px;
+        width: 350px;
         display: block;
         margin: auto;
         padding: 50px;      
@@ -16,23 +16,22 @@ body {
     }
 
         p {
-            font-size: 16px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            font-family: 'Roboto', sans-serif;
             color: rgb(49, 49, 49);
-            font-weight: bold;
+            font-weight: bolder;
             text-align: center;
+            word-spacing: 5px;
         }
 
         p:last-of-type {
-            margin: 25px;
-            font-size: 10px;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 40px;
         }
 
         a {
             margin: 25px;
-            font-size: 10px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
             font-weight: lighter;
             border-radius: 50px;
             border-style: solid;
@@ -40,9 +39,9 @@ body {
             border-color: rgb(0, 139, 255);
             text-decoration: none;
             background-color: rgb(0, 139, 255);
-            padding: 5px;
-            padding-left: 20px;
-            padding-right: 20px;
+            padding: 11px;
+            padding-left: 25px;
+            padding-right: 25px;
             margin: 50px;
             color: rgb(210, 234, 255);
         }
@@ -51,4 +50,3 @@ body {
             background-color: white;
             color: rgb(0, 139, 255);
         }
-

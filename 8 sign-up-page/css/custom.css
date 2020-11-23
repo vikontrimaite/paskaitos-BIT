@@ -1,3 +1,74 @@
 body {
     background-color: lightpink;
 }
+
+main {
+    display: inline-block;
+    width: 800px;
+    margin-top: 100px;
+    margin-left: calc(50% - 400px);
+}
+
+.left-column {
+    background-color: lightsalmon;
+    display: inline-block;
+    float: left;
+    width: 40%;
+    padding: 40%;
+    margin-top: 20px;
+}
+
+    h1 {
+
+    }
+
+    footer {
+
+    }
+
+        footer > a {
+
+        }
+
+        footer > span {
+
+        }
+
+.right-column {
+    background-color: lightgreen;
+    display: inline-block;
+    float: left;
+    width: 60%;
+    padding: 60px;
+}
+
+    .close {
+
+    }
+    .form {
+
+    }
+
+        .form-row {
+
+        }
+
+            label {
+
+            }
+
+            input {
+
+            }
+
+            .btn {
+
+            }
+
+            .form-row > span {
+
+            }
+
+            .form-row > a {
+
+            }
