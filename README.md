@@ -8,6 +8,7 @@
 
 #### Personal projects
 * [Tetrapack](https://vikontrimaite.github.io/paskaitos-BIT/4%20tetrapak%20404/)
+* [Updated Serlokas](https://vikontrimaite.github.io/paskaitos-BIT/10%20serlokas-updated/)
 
 ## Author
 [Vilija Kontrimaite](https://github.com/vikontrimaite)
