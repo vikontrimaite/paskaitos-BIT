@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up page</title>
+    <title>Sign up</title>
     <!-- reset -->
-    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <!-- components -->
     <link rel="stylesheet" href="./css/button.css">
-    <link rel="stylesheet" href="./css/form.css
-    ">
+    <link rel="stylesheet" href="./css/form.css">
     <!-- custom -->
     <link rel="stylesheet" href="./css/custom.css">
 </head>
+
 <body>
     <main>
         <div class="left-column">
             <h1>Sign up</h1>
             <footer>
-                <a href="#">Pricacy policy</a> 
+                <a href="#">Privacy policy</a>
                 <span>&amp;</span>
                 <a href="#">terms of service</a>
             </footer>
         </div>
         <div class="right-column">
-            <div class="close">
-                x
-            </div>
+            <div class="close">x</div>
             <form class="form">
                 <div class="form-row">
                     <label for="username">Username</label>
                     <input id="username" type="text" required>
                 </div>
                 <div class="form-row">
-                    <label for="email">E-mail
-                </label>
-                <input id="email" type="email" required>
-            </div>
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" required>
+                </div>
                 <div class="form-row">
                     <label for="password">Password</label>
                     <input id="password" type="password" required>
@@ -45,14 +43,15 @@
                     <label for="re_pass">Repeat password</label>
                     <input id="re_pass" type="password" required>
                 </div>
+                <div class="form-row">
+                    <!-- <input type="submit" value="Get started"> -->
+                    <div class="btn">Get started</div>
+                    <span>or</span>
+                    <a href="#">Sign in</a>
+                </div>
             </form>
-        </div>
-        <div class="form-row">
-            <div class="btn">Get started</div>
-            <!-- <input type="submit" value="Get Started"> -->
-           <span>or</span>
-            <a href="#">Sign in</a>
         </div>
     </main>
 </body>
+
 </html>
