@@ -1,45 +1,72 @@
 body {
     background-color: #3AB8DB;
 }
+
     main {
         display: inline-block;
         width: 800px;
         margin-top: 60px;
         margin-left: calc(50% - 400px);
+        position: relative;
     }
+
         .left-column {
             display: inline-block;
             float: left;
             width: 40%;
             padding: 40px;
             background-color: #0659B3;
-            margin-top: 20px;
+            position: absolute;
+            top: 30px;
+            bottom: 30px;
         }
+
             h1 {
                 color: white;
             }
-            footer {}
+
+            footer {
+                position: absolute;
+                bottom: 20px;
+            }
+            /* abosulte galima naudoti, kai artimaiusias ne static elementas(tinka abosulte arba relative) */
+
                 footer > a {
                     text-decoration: none;
-                    color: white;
+                    color: white;   
                 }
+
                 footer > span {
                     color: white;
                 }
+
         .right-column {
             display: inline-block;
-            float: left;
+            float: right;
             width: 60%;
             padding: 60px;
             background-color: #fff;
+            position: relative;
         }
+
             .close {
-                
+                display: inline-block;
+                width: 60px;
+                height: 60px;
+                text-align: center;
+                font-size: 30px;
+                line-height: 54px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                /* šitie 0 priklauso nuo width ir heigth šito elemento */
             }
+
             .form {
                 display: inline-block;
                 width: 100%;
             }
+
                 .form-row {
                     display: inline-block;
                     width: 100%;
@@ -61,6 +88,7 @@ body {
                         color: #777;
                         line-height: 15px;
                     }
+
                     input {
                         display: inline-block;
                         width: 100%;
@@ -75,6 +103,7 @@ body {
                         /* jeigu viena eilutė - gali užtekti vien line-heigth, jeigu p - reikia abiejų */
                         /* elemnto aukštis - 41 px, nes line-height+border */
                     }
+
                     .btn {
                         display: inline-block;
                         float: left;
@@ -87,6 +116,7 @@ body {
                         line-height: 20px;
                         /* border-radius lygu pusė elemento height, o line-height išlaiko radius */
                     }
+
                     .form-row > span {
                         display: inline-block;
                         float: left;
@@ -95,6 +125,7 @@ body {
                         font-size: 20px;
                         margin-left: 10px;
                     }
+
                     .form-row > a {
                         display: inline-block;
                         float: left;
