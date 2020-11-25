@@ -1,0 +1,62 @@
+.form {
+    display: inline-block;
+    width: 100%;
+}
+
+    .form-row {
+        display: inline-block;
+        width: 100%;
+        /* border: 3px solid red; */
+    }
+
+    .form-row + .form-row {
+        margin-top: 40px;
+    }
+    /* su šituo selectoriu pakeičia visus išskyrus pirmą  */
+
+        label {
+            display: inline-block;
+            width: 100%;
+            text-transform: uppercase;
+            font-size: 15px;
+            font-weight: bold;
+            /* arba font-weight: 700; - toks default yra bold*/
+            color: rgb(199, 199, 199);
+            line-height: 15px;
+            font-weight: 100;
+        }
+
+        input {
+            display: inline-block;
+            width: 100%;
+            border: none;
+            border-bottom: rgb(227, 227, 227) 3px solid;
+            font-size: 15px;
+            color: #000;
+            /* padding-top: 5px; */
+            /* padding-bottom: 5px; */
+            line-height: 40px;
+            /* elementų auginimui galima naudoti padding arba line-height */
+            /* jeigu viena eilutė - gali užtekti vien line-heigth, jeigu p - reikia abiejų */
+            /* elemnto aukštis - 41 px, nes line-height+border */
+        }
+
+        .form-row > span {
+            display: inline-block;
+            float: left;
+            padding: 10px;
+            line-height: 20px;
+            font-size: 15px;
+            margin-left: 10px;
+            color: rgb(135, 135, 135);
+        }
+
+        .form-row > a {
+            display: inline-block;
+            float: left;
+            padding: 10px;
+            line-height: 20px;
+            font-size: 15px;
+            text-decoration: none;
+            color: rgb(40, 71, 172);
+        }

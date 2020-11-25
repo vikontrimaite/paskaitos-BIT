@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up</title>
+    <title>Log in</title>
     <!-- reset -->
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="../css/reset.css">
     <!-- components -->
-    <link rel="stylesheet" href="./css/button.css">
-    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/form.css">
     <!-- custom -->
-    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="../css/custom.css">
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,7 +22,7 @@
     <div class="background"></div>
     <main>
         <div class="left-column">
-            <h1>Sign up</h1>
+            <h1>Log in</h1>
             <footer>
                 <a href="#">Privacy policy</a>
                 <span>&amp;</span>
@@ -37,22 +37,14 @@
                     <input id="username" type="text" required>
                 </div>
                 <div class="form-row">
-                    <label for="email">E-mail</label>
-                    <input id="email" type="email" required>
-                </div>
-                <div class="form-row">
                     <label for="password">Password</label>
                     <input id="password" type="password" required>
-                </div>
-                <div class="form-row">
-                    <label for="re_pass">Repeat password</label>
-                    <input id="re_pass" type="password" required>
-                </div>
+                </div> 
                 <div class="form-row">
                     <!-- <input type="submit" value="Get started"> -->
-                    <div class="btn">Get started</div>
+                    <div class="btn">Sign in</div>
                     <span>or</span>
-                    <a href="./login">Sign in</a>
+                    <a href="../forgot">Forgot password?</a>
                 </div>
             </form>
         </div>
@@ -60,10 +52,3 @@
 </body>
 
 </html>
-
-<!-- kaip pereiti į kitą page
-ą) sukurti naują folderį ir jame failą pavadinti index.html
-b( sugrįžimo į ankstesnę direktoriją pvz <a href="../forgot">Forgot password?</a>
-c)ėjimas į esamos direktorijos failą a href="./login">Sign in</a>
-d) pakeisit css pasiekiamiumą panašiai, pvz  <link rel="stylesheet" href="../css/custom.css"> - čia: iš esamos dir gržti į ankstesnę dir ir ten ieškoti, ko reikia
-e) užtenka dir nurodyti kaip pvz forgot, o ne forgot/index.html, nes kai nueina į dir, tai pirmiausia ieško visada index.html failo! -->
