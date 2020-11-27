@@ -68,6 +68,11 @@ console.log(`List of plants with space and comma: ${plants[0]}, ${plants[1]}, ${
 console.log(`List of furniture with space and comma: ${furniture[0]}, ${furniture[1]}, ${furniture[2]}, ${furniture[3]}, ${furniture[4]}.`);
 console.log(`List of furniture with space and comma: ${animal[0]}, ${animal[1]}, ${animal[2]}, ${animal[3]}, ${animal[4]}.`);
 
+// arba taip
+console.log(`Better list of plants with space and comma: ${plants.join(', ')}`);
+console.log(`Better list of furniture with space and comma: ${furniture.join(', ')}`);
+console.log(`Better list of animal with space and comma: ${animal.join(', ')}`);
+
 /* Kintamųjų palyginimas
 Lyginant, jei rezultatas tenkina palyginimo sąlygą, tai į console išvesti žodį “Pomidoras”, o jei sąlyga nėra tenkinama, išvesti sakinį “Bandykite kitą kartą.”.
 
@@ -170,6 +175,11 @@ console.log(`The length of variable ${tea} are ${tea.length} symbols.`);
 console.log(`Length of each variable of plants array: ${plants[0].length}, ${plants[1].length}, ${plants[2].length}, ${plants[3].length}, ${plants[4].length}.`);
 console.log(`Length of each variable of furniture array: ${furniture[0].length}, ${furniture[1].length}, ${furniture[2].length}, ${furniture[3].length}, ${furniture[4].length}.`);
 console.log(`Length of each variable of animal array: ${animal[0].length}, ${animal[1].length}, ${animal[2].length}, ${animal[3].length}, ${animal[4].length}.`);
+
+//arba taip
+console.log(`(Again!) length of each variable of plants array: ${plants.map((variable) => variable.length).join(', ')}`);
+console.log(`(Again!) length of each variable of furniture array: ${furniture.map((variable) => variable.length).join(', ')}`);
+console.log(`(Again!) length of each variable of animal array: ${animal.map((variable) => variable.length).join(', ')}`);
 
 /* Tarpusavyje palyginti sąrašo tipo kintamųjų ilgius:
     kuris didesnis
