@@ -19,7 +19,7 @@ console.log(num2);
 const num3 = 65;
 console.log(num3);
 
-const name = 'Varlius';
+const name = 'Kukutis';
 console.log(name);
 const city = 'Kaunas';
 console.log(city);
@@ -138,7 +138,7 @@ console.log(`The length of variable ${tea} are ${tea.length} symbols.`);
     if (city.length < tea.length) {
         console.log(`Variable ${city} is not longer than variable ${tea}`);
     } else {
-        console.log(`Variable ${city} is longer than variable ${tea}`);;
+        console.log(`Variable ${city} is longer than variable ${tea}`);
     }
 
     if (tea.length === name.length) {
@@ -167,6 +167,9 @@ console.log(`The length of variable ${tea} are ${tea.length} symbols.`);
 
 /* Išvesti sąrašo tipo kintamųjų ilgius */
 
+console.log(`Length of each variable of plants array: ${plants[0].length}, ${plants[1].length}, ${plants[2].length}, ${plants[3].length}, ${plants[4].length}.`);
+console.log(`Length of each variable of furniture array: ${furniture[0].length}, ${furniture[1].length}, ${furniture[2].length}, ${furniture[3].length}, ${furniture[4].length}.`);
+console.log(`Length of each variable of animal array: ${animal[0].length}, ${animal[1].length}, ${animal[2].length}, ${animal[3].length}, ${animal[4].length}.`);
 
 /* Tarpusavyje palyginti sąrašo tipo kintamųjų ilgius:
     kuris didesnis
@@ -175,6 +178,42 @@ console.log(`The length of variable ${tea} are ${tea.length} symbols.`);
     ar jie nelygūs
     kuris didesnis arba lygus
     kuris mažesnis arba lygus */
+
+    if (plants[0].length > furniture[0].length) {
+        console.log(`Variable ${plants[0]} is longer than variable ${furniture[0]}`);
+    } else {
+        console.log(`Variable ${plants[0]} is not longer than variable ${furniture[0]}`);
+    }
+
+    if (animal[0].length < plants[1].length) {
+        console.log(`Variable ${animal[0]} is not longer than variable ${plants[1]}`);
+    } else {
+        console.log(`Variable ${animal[0]} is longer than variable ${plants[1]}`);
+    }
+
+    if (furniture[1].length === animal[1].length) {
+        console.log(`Variable's ${furniture[1]} length is equal to the length of variable ${animal[1]}`);
+    } else {
+        console.log(`Variable's ${furniture[1]} length is not equal to the length of variable ${animal[1]}`);
+    }
+
+    if (plants[2].length !== furniture[2].length) {
+        console.log(`Variable's ${plants[2]} length is not equal to the length of variable ${furniture[2]}`);
+    } else {
+        console.log(`Variable's ${plants[2]} length is equal to the length of variable ${furniture[2]}`);
+    }
+
+    if (animal[2].length >= plants[3].length) {
+        console.log(`Variable's ${animal[2]} length is bigger or equal to the length of variable ${plants[3]}`);
+    } else {
+        console.log(`Variable's ${animal[2]} length is not bigger or not equal to the length of variable ${plants[3]}`);
+    }
+
+    if (furniture[3].length <= animal[3].length) {
+        console.log(`Variable's ${furniture[3]} length is not bigger or not equal to the length of variable ${animal[3]}`);
+    } else {
+        console.log(`Variable's ${furniture[3]} length is bigger or equal to the length of variable ${animal[3]}`);
+    }
 
 /*    Ciklo for panaudojimas
 Suskaičiuoti ką gausime susumavus skaičius intervale tarp (imtinai):
