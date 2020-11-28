@@ -13,4 +13,4 @@
 * [Mailchimp-404-Page](https://vikontrimaite.github.io/paskaitos-BIT/13%20mailchip-404/)
 
 ## Author
-[Vilija Kontrimaite](https://github.com/vikontrimaite)
+[Vilija Kontrimaitė](https://github.com/vikontrimaite)
