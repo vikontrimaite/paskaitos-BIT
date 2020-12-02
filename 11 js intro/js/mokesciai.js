@@ -5,11 +5,14 @@ function mokesciai(pajamos) {
 
     for (let i = 0; i < pajamos.length; i++) {
         const uzdarbis = pajamos[i];
+        // console.log(uzdarbis);
 
         if (uzdarbis > neapmokestinamasMinimumas) {
             moketinaSuma += uzdarbis - neapmokestinamasMinimumas;
         }
     }
+
+    // console.log('Apmokestina suma:', moketinaSuma);
 
     const mokestis = moketinaSuma * PVM / 100;
 

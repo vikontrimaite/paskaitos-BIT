@@ -1,5 +1,5 @@
 /*
-Matematiniu operatiai:
+tipiniai matematiniu operatiai:
 2+2
 2*8
 4-7
@@ -21,6 +21,7 @@ pinigine = pinigine + 100;  // 260
 pinigine = pinigine - 20;   // 240
 console.log(pinigine);
 
+// += ir -= panaudojimas
 let pocket = 0;
 console.log(pocket);
 
@@ -36,7 +37,7 @@ pocket += 100;  // 260
 pocket -= 20;   // 240
 console.log(pocket);
 
-console.log('------------');
+// kiti sutrumpinimai *= bei /=
 let ats = 100;
 console.log(ats);
 
@@ -55,25 +56,31 @@ console.log(ats);
 console.log('---------------');
 
 /*
-++ padydinti vienu vienetu
+++ padidinti vienu vienetu
 -- sumazinti vienu vienetu
 */
 
 let i = 0;
 console.log(i);
 
+// padidinti vienu vienetu su ++
 i = i + 1;
 i += 1;
 i++;
 console.log(i);
 
+// sumažinti vienu vienetu su --
 i = i - 1;
 i -= 1;
 i--;
 console.log(i);
 
-
+//pavyzdys
 let temperatura = -8;
 
-console.log(`Lauke dabar yra ${temperatura++} laipsniu.`);
 console.log(`Lauke dabar yra ${temperatura} laipsniu.`);
+console.log(`Lauke dabar yra ${temperatura++} laipsniu.`);
+console.log(`Lauke dabar yra ${temperatura++} laipsniu.`);
+console.log(`Lauke dabar yra ${++temperatura} laipsniu.`);
+console.log(`Lauke dabar yra ${temperatura} laipsniu.`);
+//galima ++ gale arba priekyje rašyti

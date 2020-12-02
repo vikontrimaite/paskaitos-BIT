@@ -1,4 +1,4 @@
-const darzove = 'morka';
+const darzove = 'bulve';
 
 switch (darzove) {
     case 'morka':

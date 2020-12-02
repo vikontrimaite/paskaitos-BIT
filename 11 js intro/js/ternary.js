@@ -1,6 +1,8 @@
 /*
 Ternary operator
 liaudiskai: inline if'as, kuris savyje turi ir gali tureti TIK true ir false dalis.
+
+užrašymas: 
 if'o klausimas ? jeigu teigiamas ats : jeigu neigiamas ats
 */
 
@@ -16,17 +18,15 @@ const verdiktas2 = amzius2 >= amziausRiba ? 'I prezidentus!' : 'Dar palauk...';
 console.log(`Jei tau ${amzius1} - ${verdiktas1}`);
 console.log(`Jei tau ${amzius2} - ${verdiktas2}`);
 
-
+// kitas pvz
 const makesSense = false;
 const ats = makesSense ? 'taip' : 'ne';
 
 console.log(ats);
 
-
-console.log('---------------');
-
-const sezonas = 'ruduo';
-const temp = 15;
+// dar kitas pvz
+const sezonas = 'vasara';
+const temp = 9;
 
 if (sezonas === 'vasara') {
     if (temp > 10) {
@@ -42,8 +42,16 @@ if (sezonas === 'vasara') {
     }
 }
 
-
+// viršutinis atvejis panaudojant ternary užrašymą
 const kaVilktis = sezonas === 'vasara' ? temp > 10 ? 'Maike' : 'Golfas' : temp > 10 ? 'Megztinis' : 'Striuke';
+/* išskaidymas toks
+    const kaVilktis = 
+        sezonas === 'vasara' ? 
+                temp > 10 ? 'Maike' : 'Golfas' : <--- čia jeigu true - sezonas yra vasara
+                temp > 10 ? 'Megztinis' : 'Striuke'; <--- čia jeigu false - sezonas yra ne vasara
+*/
+console.log(kaVilktis);
+
 
 // const kaVilktis = sezonas === 'vasara' ?
 //                     temp > 10 ?
@@ -53,4 +61,3 @@ const kaVilktis = sezonas === 'vasara' ? temp > 10 ? 'Maike' : 'Golfas' : temp >
 //                         'Megztinis' :
 //                         'Striuke';
 
-console.log(kaVilktis);

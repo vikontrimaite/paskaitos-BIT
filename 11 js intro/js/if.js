@@ -92,10 +92,18 @@ if (day === 'mon') {
     console.log('Not a week day... 🤔');
 }
 
-console.clear();
+console.clear(); //išvaloma koncolė, kad švariau atrodytų
 
-if (0 === false) {
+if (7 === false) {
     console.log('POzityvas');
 } else {
     console.log('NEgatyvas');
 }
+
+if (7 === '7') {
+    console.log('POzityvas');
+} else {
+    console.log('NEgatyvas');
+}
+
+//visada naudoti griežtą palyginimą ===
