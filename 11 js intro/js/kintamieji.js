@@ -34,3 +34,23 @@ const zodynas = ['labas', 'rytas', 'Lietuva'];
 // console.log(pinigine);
 
 
+// extra?
+let pinigine = 0;
+console.log(pinigine);
+
+pinigine = 100;
+pinigine = 200;
+pinigine = 370;
+console.log(pinigine);
+console.log(pinigine);
+console.log(pinigine);
+
+pinigine = 240;
+console.log(pinigine);
+
+
+let gyvenamojiVieta = 'Kestuciu g. 1';
+console.log(gyvenamojiVieta);
+
+gyvenamojiVieta = 'Vytauto g. 2';
+console.log(gyvenamojiVieta);
