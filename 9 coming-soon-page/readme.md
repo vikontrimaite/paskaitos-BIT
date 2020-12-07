@@ -12,7 +12,7 @@ Design: [Sign up]()
 [Vilija Kontrimaitė](https://github.com/vikontrimaite)
 
 
-### Ka ir kaip ketiname daryti?
+## Ka ir kaip ketiname daryti?
 
 * [x] paanalizuoti paveiksliuka/dizaina;
 * [x] pasiruosti basic failus;
