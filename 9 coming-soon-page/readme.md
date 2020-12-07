@@ -1,24 +1,27 @@
-<!-- Read more https://guides.github.com/features/mastering-markdown/  -->
+# Coming soon
 
-![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
-![Security Status](https://img.shields.io/security-headers?label=Security&url=https%3A%2F%2Fgithub.com&style=flat-square)
-![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
-![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
+Site published at https://vikontrimaite.github.io/paskaitos-BIT/9%20coming-soon-page/
 
-
-# Sign up
-### 20 group website project
-
-This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
-
-Site published at https://front-end-by-rimantas.github.io/20-grupe-sign-up/
-
-Design: [Sign up](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
+Design: [Sign up]()
 
 
 ## Project features
-- css components
-- multi-page
+- jė
 
 ## Authors
-[Rimantas](https://github.com/belauzas)
+[Vilija Kontrimaitė](https://github.com/vikontrimaite)
+
+
+Ka ir kaip ketiname daryti?
+
+ paanalizuoti paveiksliuka/dizaina;
+ pasiruosti basic failus;
+ susikelti i Github;
+ Github'e paleisti viesai prieinama nuoroda;
+ susikurti projekto aprasa;
+ darbo uzduociu planavimas su "Github projects":
+ uzduoties aprasymas turi buti kiek imanoma detalesnis
+ uztrukti turetu ne daugiau nei pusdieni
+ pagal aprasyma, turetu galeti priimti sprendima, ar uzduotis atlikta deramai
+ bus reikalingas "develop" branch'as;
+ projekto vystymas bus pagal "Git flow" darbo principa;
