@@ -14,8 +14,8 @@ Design: [Sign up]()
 
 Ka ir kaip ketiname daryti?
 
-* [ ] paanalizuoti paveiksliuka/dizaina;
-* [ ] pasiruosti basic failus;
+* [x] paanalizuoti paveiksliuka/dizaina;
+* [x] pasiruosti basic failus;
 * [ ] susikelti i Github;
 * [ ] Github'e paleisti viesai prieinama nuoroda;
 * [ ] susikurti projekto aprasa;
