@@ -5,6 +5,7 @@
 * [Mergaite](https://vikontrimaite.github.io/paskaitos-BIT/3%20mergaites%20404/)
 
 * [Sign up page](https://vikontrimaite.github.io/paskaitos-BIT/8%20sign-up-page/)
+* [Coming soon page](https://vikontrimaite.github.io/paskaitos-BIT/9%20coming-soon-page/)
 
 #### Personal projects
 * [Tetrapack-404-Page](https://vikontrimaite.github.io/paskaitos-BIT/4%20tetrapak%20404/)
