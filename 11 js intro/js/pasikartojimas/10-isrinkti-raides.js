@@ -39,8 +39,9 @@ function pickLetter (text, step) {
 // console.log(pickLetter('abcdefg', 2));
 // console.log(pickLetter('abcdefghijkl', 3));
 
+debugger;
 console.log(pickLetter(55, 4));
-console.log(pickLetter('', 6));
-console.log(pickLetter('abc', 4));
-console.log(pickLetter('abc', 'lala'));
-console.log(pickLetter('abc', 0));
+// console.log(pickLetter('', 6));
+// console.log(pickLetter('abc', 4));
+// console.log(pickLetter('abc', 'lala'));
+// console.log(pickLetter('abc', 0));
